@@ -9,6 +9,12 @@ print("I am learning python")
 print('It is awesome', end=" ")
 print('and fun')
 
+"""
+This is a comment
+written in more
+than one line...
+"""
+
 #variables
 number = 9
 
