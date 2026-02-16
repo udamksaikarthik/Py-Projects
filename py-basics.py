@@ -27,6 +27,10 @@ z = float(3)
 print('x: ',x, ', y: ',y,',z: ',z)
 print('typeof x: ',type(x), ', typeof y: ',type(y),', typeof z: ',type(z))
 
+x, y, z = 'Apple', 'Banana', 'Orange'
+
+print(x, y, z)
+
 #if else condition
 if(number%2==0):
     print(number, "is a even number")
