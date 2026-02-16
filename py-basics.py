@@ -2,7 +2,10 @@ import sys
 
 print(sys.version)
 
-print('Hello.... Py Projects')
+print('Hello world')
+print("I am learning python")
+print('It is awesome', end=" ")
+print('and fun')
 
 number = 9
 
