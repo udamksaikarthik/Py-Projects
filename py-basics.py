@@ -31,6 +31,24 @@ x, y, z = 'Apple', 'Banana', 'Orange'
 
 print(x, y, z)
 
+x = y = z = 'Gayathri'
+
+print(x, y, z)
+
+fruits = ['Apple', 'Orange', 'Mango']
+
+print('fruits: ',fruits)
+
+#global variable
+message = "Awesome and Fun!!!"
+
+def myfunc():
+    message = "Fantastic and Fun!!!"
+    print('Python is '+message)
+
+print('Python is '+message)
+myfunc()
+
 #if else condition
 if(number%2==0):
     print(number, "is a even number")
