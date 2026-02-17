@@ -1,9 +1,25 @@
-#datatypes
+# datatypes
+# type annotation format as below
+from typing import Final
+from datetime import datetime
+
 
 number: int = 10
 decimal: float = 1.5
 name: str = "Karthik!"
 active: bool = False
+
+#Constant variable
+VERSION: Final[str] = '1.0.4'
+
+
+print('VERSION: ',VERSION)
+
+# this is not working as expected, we will cover this in functions.
+VERSION = '2.0.6'
+
+print('VERSION: ',VERSION)
+
 
 # list is a collection of different data types
 names: list = ['Karthik', 'Gayathri', 'Rudhvedh',21, 20, 18] 
@@ -13,3 +29,10 @@ coordinates: tuple = (1.5, 1.5, 2.5)
 unique: set = {1, 2, 2, 4, 9}
 # key value pair system.
 data: dict = {'name': 'Karthik', 'age': 26}
+
+print('names: ',names)
+print('coordinates: ',coordinates)
+print('unique: ',unique)
+print('data: ',data)
+
+print('datetime:', datetime.now())
