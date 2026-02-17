@@ -2,6 +2,7 @@
 # type annotation format as below
 from typing import Final
 from datetime import datetime
+from functions import showtime, showtimereturn
 
 
 number: int = 10
@@ -35,4 +36,8 @@ print('coordinates: ',coordinates)
 print('unique: ',unique)
 print('data: ',data)
 
-print('datetime:', datetime.now())
+print('datetime:', end=" ")
+
+showtime()
+
+print('datetime:', showtimereturn())
