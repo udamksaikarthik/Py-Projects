@@ -40,3 +40,17 @@ def add(a: float, b: float) -> float:
     return a + b
 
 print('add: ',add(1.5, 5.9))
+
+
+"""
+this function has accepting multiple parameters 
+Parameterized function to add numbers
+"""
+def add(a: int, *b: int) -> int:
+    sum = a
+    for n in b:
+        sum += n
+    
+    return sum
+
+print(add(4,5,5,5,5,5,5,5,5))
