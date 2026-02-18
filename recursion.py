@@ -13,4 +13,17 @@ def greet():
     sleep(0.01)
     greet()
 
-greet()
+# greet()
+
+# task for recursion: 
+
+def printNumbers() -> None:
+    global count
+    if(count>10):
+        return
+    print(count)
+    count = count + 1
+    printNumbers()
+
+printNumbers()
+
