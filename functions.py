@@ -54,3 +54,16 @@ def add(a: int, *b: int) -> int:
     return sum
 
 print(add(4,5,5,5,5,5,5,5,5))
+
+"""
+anonymous function: which is without a name
+
+"""
+
+# def fun(num: int) -> int:
+#     return num * num
+
+fun = lambda num: num * num
+
+result = fun(5)
+print(result)
