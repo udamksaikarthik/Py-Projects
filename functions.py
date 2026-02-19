@@ -67,3 +67,9 @@ fun = lambda num: num * num
 
 result = fun(5)
 print(result)
+
+add_anon = lambda a,b: a+b
+
+
+result = add_anon(5, 5)
+print(result)
