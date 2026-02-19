@@ -73,3 +73,11 @@ add_anon = lambda a,b: a+b
 
 result = add_anon(5, 5)
 print(result)
+
+even_odd_fun = lambda num: num % 2 
+
+result = even_odd_fun(32)
+if(result==0):
+    print('Even')
+else:
+    print('Odd')
