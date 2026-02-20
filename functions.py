@@ -81,3 +81,18 @@ if(result==0):
     print('Even')
 else:
     print('Odd')
+
+"""
+Inner function: function inside function
+
+"""
+
+def outer():
+    print("Outer Function")
+
+    def inner():
+        print("Inner Function")
+
+    inner()
+
+outer()
